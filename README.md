@@ -1,92 +1,30 @@
-\# Task Manager API
+# Task Manager API
 
+##  Overview
+A RESTful backend API built using Flask that supports full CRUD operations for managing tasks.
 
+---
 
-\## Overview
+##  Features
+- Create tasks
+- Retrieve all tasks
+- Retrieve a single task
+- Update tasks
+- Delete tasks
 
-A RESTful backend API built using Flask that allows users to manage tasks with full CRUD functionality.
+---
 
+## Tech Stack
+- Python
+- Flask
+- REST API
 
+---
 
-\## Features
+##  How to Run
 
-\- Create tasks
-
-\- Retrieve all tasks
-
-\- Retrieve a single task
-
-\- Update tasks
-
-\- Delete tasks
-
-
-
-\## Tech Stack
-
-\- Python
-
-\- Flask
-
-\- REST API
-
-
-
-\## How to Run
-
-1\. Create virtual environment:
-
-&#x20;  python -m venv venv
-
-
-
-2\. Activate:
-
-&#x20;  venv\\Scripts\\activate
-
-
-
-3\. Install dependencies:
-
-&#x20;  pip install flask
-
-
-
-4\. Run the app:
-
-&#x20;  python app.py
-
-
-
-\## API Endpoints
-
-
-
-GET /tasks  
-
-GET /tasks/<id>  
-
-POST /tasks  
-
-PUT /tasks/<id>  
-
-DELETE /tasks/<id>
-
-
-
-\## Sample Response
-
-
-
-{
-
-&#x20; "id": 1,
-
-&#x20; "title": "Learn Flask",
-
-&#x20; "description": "Build API",
-
-&#x20; "done": false
-
-}
-
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install flask
+python app.py
